@@ -1,0 +1,64 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    line-height: 1.5em;
+  
+}
+.stretch{
+    background-color: #D3D3D3;
+}
+.outlook > li{
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+}
+.outlook > li > a{
+    color: black;
+}
+.title{
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin: 30px 0px;
+    font-weight: bolder; 
+}
+h4{
+    font-weight: bolder;
+    font-size: large;
+    font-style: normal;
+}
+section .chicken {
+    background-color: #D3D3DE;
+    height: auto;
+    line-height: 1.8rem;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    /*float: left; */
+}
+section .beef {
+    background-color: #D3D3DE;
+    height: auto;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    line-height: 1.8rem;
+    margin-bottom: 20px;
+    /*float: left; */
+}
+section .sushi {
+    background-color: #D3D3DE;
+    height: auto;
+    position: relative;
+    width: 100%;
+    line-height: 1.8rem;
+    padding: 15px;
+    /*float: left; */
+}
+@media(max-width: 767px){
+    .col-xs-12{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
